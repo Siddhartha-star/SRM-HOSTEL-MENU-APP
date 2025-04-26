@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queries - SRM Hostel Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .queries-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+        }
+
+        .query-card {
+            background: var(--bg-white);
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .faq-section {
+            margin-bottom: 3rem;
+        }
+
+        .faq-item {
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .faq-item:hover {
+            background: rgba(33, 150, 243, 0.05);
+        }
+
+        .faq-question {
+            font-weight: 500;
+            color: var(--primary-blue);
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-section {
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, var(--primary-blue), #1976D2);
+            color: white;
+            border-radius: 15px;
+            margin-top: 3rem;
+        }
+        
+
+        /* Dark Mode Styles */
+        body.dark-mode .query-card {
+            background: var(--dark-card);
+            border: 1px solid var(--dark-border);
+        }
+
+        body.dark-mode .faq-item {
+            color: var(--dark-text);
+        }
+
+        body.dark-mode .faq-item:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        body.dark-mode .faq-question {
+            color: var(--primary-blue);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation from index.html -->
+<nav class="main-nav">
+    <div class="nav-container">
+        <div class="logo">
+            <i class="fas fa-utensils"></i>
+            <span>SRM Hostel Menu</span>
+        </div>
+
+        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="nav-links">
+            <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
+            <a href="index.html#breakfast" class="nav-link"><i class="fas fa-sun"></i> Breakfast</a>
+            <a href="index.html#lunch" class="nav-link"><i class="fas fa-hamburger"></i> Lunch</a>
+            <a href="index.html#snacks" class="nav-link"><i class="fas fa-cookie"></i> Snacks</a>
+            <a href="index.html#dinner" class="nav-link"><i class="fas fa-moon"></i> Dinner</a>
+            <a href="queries.html" class="nav-link"><i class="fas fa-question-circle"></i> Queries</a>
+        </div>
+
+        <button class="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+    <div class="nav-backdrop"></div>
+</nav>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Common Queries</h1>
+            <p>Find answers to frequently asked questions</p>
+        </div>
+    </div>
+
+    <div class="queries-container">
+        <div class="query-card">
+            <h2><i class="fas fa-question-circle"></i> Frequently Asked Questions</h2>
+            <div class="faq-section">
+                <div class="faq-item">
+                    <p class="faq-question"> What are the mess timings?</p>
+                    <p>Breakfast: 7:00 AM - 8:00 AM<br>
+                        Lunch: 11:30 PM - 2:00 PM<br>
+                        Evening Snacks: 4:00 PM - 5:00 PM<br>
+                        Dinner: 7:00 PM - 8:30 PM</p>
+                </div>
+                <div class="faq-item">
+                    <p class="faq-question"> How can I suggest changes to the menu?</p>
+                    <p>You can share your suggestions through message via connecting with developer directly on social media handles.</p>
+                </div>
+                <!-- Add more FAQ items -->
+            </div>
+        </div>
+
+<div class="contact-section">
+    <h2>Need More Help?</h2>
+
+    <div class="contact-options">
+        <div class="contact-option">
+            <h3><i class="fas fa-code"></i> Connect with Developer</h3>
+            <div class="social-links">
+                <a href="https://github.com/CAmmanabrolu" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            <a href="https://www.linkedin.com/in/cammanabrolu/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://x.com/CAmmanabrolu" target="_blank"><i class="fab fa-twitter"></i></a>
+                </a>
+            </div>
+        </div>
+
+        
+    </div>
+</div>
+    <!-- Footer from index.html -->
+    <script src="script.js"></script>
+</body>
+
+
+</html>

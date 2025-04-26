@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SRM University Hostel Menu - Daily meal plans for students">
+    <title>SRM Hostel Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation from index.html -->
+<nav class="main-nav">
+    <div class="nav-container">
+        <div class="logo">
+            <i class="fas fa-utensils"></i>
+            <span>SRM Hostel Menu</span>
+        </div>
+
+        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="nav-links">
+            <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
+            <a href="index.html#breakfast" class="nav-link"><i class="fas fa-sun"></i> Breakfast</a>
+            <a href="index.html#lunch" class="nav-link"><i class="fas fa-hamburger"></i> Lunch</a>
+            <a href="index.html#snacks" class="nav-link"><i class="fas fa-cookie"></i> Snacks</a>
+            <a href="index.html#dinner" class="nav-link"><i class="fas fa-moon"></i> Dinner</a>
+            <a href="queries.html" class="nav-link"><i class="fas fa-question-circle"></i> Queries</a>
+        </div>
+
+        <button class="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+    <div class="nav-backdrop"></div>
+</nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Welcome to SRM Hostel Menu</h1>
+            <p>Discover today's delicious meals</p>
+            <div class="date-display">
+                <i class="fas fa-calendar"></i>
+                <span id="current-date"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu Container -->
+    <main class="menu-container">
+        <!-- Breakfast Section -->
+        <section id="breakfast" class="menu-section">
+            <div class="menu-card">
+                <div class="card-header">
+                    <i class="fas fa-sun"></i>
+                    <h2>Breakfast</h2>
+                    <span class="time">7:30 AM - 9:30 AM</span>
+                </div>
+                <div class="menu-items" id="breakfast-items"></div>
+            </div>
+        </section>
+
+        <!-- Lunch Section -->
+        <section id="lunch" class="menu-section">
+            <div class="menu-card">
+                <div class="card-header">
+                    <i class="fas fa-hamburger"></i>
+                    <h2>Lunch</h2>
+                    <span class="time">12:30 PM - 2:30 PM</span>
+                </div>
+                <div class="menu-items" id="lunch-items"></div>
+            </div>
+        </section>
+
+        <!-- Snacks Section -->
+        <section id="snacks" class="menu-section">
+            <div class="menu-card">
+                <div class="card-header">
+                    <i class="fas fa-cookie"></i>
+                    <h2>Evening Snacks</h2>
+                    <span class="time">4:30 PM - 5:30 PM</span>
+                </div>
+                <div class="menu-items" id="snacks-items"></div>
+            </div>
+        </section>
+
+        <!-- Dinner Section -->
+        <section id="dinner" class="menu-section">
+            <div class="menu-card">
+                <div class="card-header">
+                    <i class="fas fa-moon"></i>
+                    <h2>Dinner</h2>
+                    <span class="time">7:30 PM - 9:30 PM</span>
+                </div>
+                <div class="menu-items" id="dinner-items"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#breakfast">Breakfast</a>
+                <a href="#lunch">Lunch</a>
+                <a href="#snacks">Snacks</a>
+                <a href="#dinner">Dinner</a>
+            </div>
+            <div class="footer-section">
+                <h3>Additional Pages</h3>
+               
+                <a href="queries.html">Queries</a>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Developer</h3>
+                <div class="social-links">
+                    <a href="https://github.com/Siddhartha-star" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/siddharth-bandi/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/T0177233330342" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Designed & Developed with <i class="fas fa-heart" style="color: #ff4444;"></i> Bandi Venkata Siddhartha</p>
+            <p>© 2025 SRM Hostel Menu</p>
+        </div>
+    </footer>
+
+    <!-- Loading Spinner -->
+    <div class="loader" id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <script src="menu.js"></script>
+    <script src="script.js"></script>
+   
+    
+</body>
+
+</html>
