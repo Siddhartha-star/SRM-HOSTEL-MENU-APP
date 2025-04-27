@@ -1,5 +1,7 @@
 # SRM RMP Hostel Menu Website🍽️
 
+# WEBSITE LIVE AT :- https://siddhartha-star.github.io/SRM-HOSTEL-MENU-APP/
+
 ## Overview✨
 The **SRM RMP Hostel Menu Website** is a web application designed to provide students of SRM University with easy access to daily, weekly, and monthly hostel meal plans. The website offers a user-friendly interface with detailed nutritional information and real-time updates on menu changes.
 
@@ -51,8 +53,7 @@ Contributions are welcome! If you'd like to contribute:
 - Hostel Menu Management
 - User Experience
 - Responsive Design
-- Meal Plans
-- Website Optimization
+
 
 
 
